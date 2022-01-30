@@ -1,0 +1,16 @@
+from flask import flask, render_template
+import os
+import requests
+
+app=Flask(__name__)
+
+@app.route('/')
+def index():
+ 
+ text = "open world" open('Hello Wordl')  
+ print(text)   
+
+return render_templates("index.html", text=text)
+if _name__="__main__":
+app.run()
+
